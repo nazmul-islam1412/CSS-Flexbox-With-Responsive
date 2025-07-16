@@ -7,6 +7,18 @@
             padding: 10px;
             border-radius: 8px;
         }
+
+        .container-img {
+            background-color: rgb(6, 151, 143);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .container-img p{
+            border: 2px solid rgba(0, 0, 0, 0.94);
+            padding: 3rem;
+            
+        }
         /* Small Device */
 @media screen and (max-width:576px) {
     .container{
